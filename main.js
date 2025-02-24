@@ -21,4 +21,9 @@ if (userAge < 18) {
   percentage = 20;
   discountPrice = (sum / 100) * percentage;
   console.log(discountPrice);
+  // Sconto 40% over 65
+} else if (userAge >= 65) {
+  percentage = 40;
+  discountPrice = (sum / 100) * percentage;
+  console.log(discountPrice);
 }

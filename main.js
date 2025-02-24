@@ -32,3 +32,6 @@ if (userAge < 18) {
 
 finalPrice = (sum - discountPrice).toFixed(2);
 console.log(finalPrice);
+
+// Messaggio del prezzo finale
+alert(`Il prezzo del tuo biglietto è: ${finalPrice}€`);

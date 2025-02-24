@@ -9,3 +9,8 @@ let discountPrice = 0;
 
 const km = parseInt(prompt("Quanti kilometri devi percorrere?"));
 console.log(km);
+
+// Età dell'utente
+
+const userAge = parseInt(prompt("Inserisci la tua età"));
+console.log(userAge);

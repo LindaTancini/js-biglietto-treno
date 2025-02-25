@@ -1,6 +1,6 @@
 // km da percorrere
 
-const km = parseInt(prompt("Quanti kilometri devi percorrere?"));
+const km = parseFloat(prompt("Quanti kilometri devi percorrere?"));
 console.log(km);
 
 // Età dell'utente
